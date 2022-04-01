@@ -1,0 +1,586 @@
+/*font start*/
+
+@font-face{
+	src: url(../fonts/BebasNeue-Bold.ttf);
+	font-family: 'Bebas Neue', cursive;
+}
+
+/*common start*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+
+/*common end*/
+/*header start*/
+
+header{
+	background: #FFC450;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 16px;
+	width: 20%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	padding: 0 2px;
+	margin: 31px 25px 0;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	border-bottom: 1px solid transparent;
+	color: #3d2514;
+}
+
+.menu ul li a:last-child {
+	margin-right: 0;
+}
+
+.menu ul li a:hover{
+	border-bottom: 1px solid #3d2514;
+}
+
+/*header end*/
+/*banner start*/
+
+.banner {
+	min-height: 675px;
+	background: #FFC450;
+}
+
+.b-content {
+}
+
+.b-left {
+	margin-top: 150px;
+	width: 45%;
+	float: left;
+	/*border: 1px solid darkred;*/
+	text-transform: uppercase;
+}
+
+.b-left p{
+	padding-left: 10px;
+	margin: 0;
+    width: 68%;
+    font-size: 23px;
+    font-weight: 400;
+    border: 2px dashed #3d2514;
+}
+
+.b-left h1{
+	margin: 0px;
+    margin-top: -5px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	text-shadow: 3px 3px 2px white;
+
+}
+
+.b-left h2{
+	margin: 0;
+	margin-top: -25px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	text-shadow: 3px 3px 2px white;
+
+}
+
+.b-right {
+	width: 50%;
+	min-height: 650px;
+	float: right;
+	/*border: 1px solid darkred;*/
+	position: relative;
+}
+
+.br-content{
+}
+
+.price{
+	padding: 15px;
+    width: 150px;
+    /* height: 150px; */
+    background: #E71E21;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    bottom: 20px;
+    left: -60px;
+}
+
+.five {
+	height: 150px;
+    border: 3px dashed white;
+    border-radius: 50%;
+    background: #E71E21;
+    position: relative;
+}
+
+.red{
+	top: 10px;
+    left: 40px;
+	position: absolute;
+	color: white;
+}
+
+.dollar {
+	font-size: 50px;
+}
+
+.fourtynine{
+	font-size: 18px;
+}
+
+.only {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+.img1 {
+	top: 220px;
+	left: 60px;
+	position: absolute;
+	z-index: 7;
+}
+
+.img2 {
+	top: 90px;
+	left: 390px;
+	position: absolute;
+	z-index: 6;
+}
+
+.img3 {
+	top: 155px;
+	left: -60px;
+	position: absolute;
+	z-index: 5;
+}
+
+.glow{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+.b-shad{
+	position: absolute;
+	bottom: 10px;
+	right: 55px;
+}
+
+.c-shad{
+	position: absolute;
+    bottom: 30px;
+    right: -50px;
+}
+
+/*banner end*/
+/*try it start*/
+
+.try-it {
+	margin: 70px 0;
+	color: white;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+
+.try-left {
+	float: left;
+	width: 48%;
+	/*border: 1px solid red;*/
+	background-image:url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 350px;
+}
+
+.x{
+	margin: 0;
+	padding: 20px 0 0 20px;
+}
+
+.y{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.try-right {
+	float: right;
+	width: 48%;
+	/*border: 1px solid red;*/
+}
+
+.r-top {
+	margin-bottom: 28px;
+	/*border: 1px solid green;*/
+	background-image:url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 160px;
+}
+
+.r-bottom {
+	/*border: 1px solid green;*/
+	background-image:url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 160px;
+}
+
+/*try it end*/
+/*enjoy start*/
+
+.enjoy {
+}
+
+.e-content {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+.tasty {
+	margin: 0px auto;
+    background-color: #FFC34C;
+    width: 20%;
+    font-size: 25px;
+}
+
+.title{
+	margin: 22px 0 12px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.text {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/*enjoy end*/
+/*order start*/
+
+.order {
+	margin: 60px 0 150px;
+}
+
+.order-content {
+	width: 96%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+
+.single {
+	width: 33.3%;
+    /* border: 1px solid green; */
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.s-img {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.s-img img{
+	width: 100%;
+}
+
+.shadow{
+	top: 275px;
+    left: -15px;
+    position: absolute;
+}
+
+.p-top{
+	top: 280px;
+}
+
+.order-title{
+	margin: 75px 0 0;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+button{
+	padding-top: 5px;
+	margin-top: 30px;
+	width: 200px;
+	height: 60px;
+	background: #E71E21;
+	border: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 17px;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/*order end*/
+/*upcoming start*/
+
+.upcoming {
+	margin-bottom: 50px;
+}
+
+.u-content {
+}
+
+.w-s{
+	box-shadow: ;
+}
+
+.u-left {
+	width: 42%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.disco{
+	margin: 0;
+    margin-top: 45px;
+    font-size: 29px;
+    color: #3A3A3A;
+}
+
+.u-left h2{
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 41px;
+	text-transform: uppercase;
+}
+
+.ul-text{
+	margin: 0;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3A3A3A;
+    line-height: 30px;
+}
+
+.u-right {
+	width: 55%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.ur-img {
+	margin: 20px;
+}
+
+.ur-img img{
+	width: 100%;
+}
+
+/*upcoming end*/
+/*book start*/
+
+.table {
+	padding-bottom: 150px;
+	/*border: 3px solid;*/
+}
+
+.t-content {
+	position: relative;
+}
+
+.tbg{
+	position: absolute;
+}
+
+.one{
+	top: 240px;
+    right: -140px;
+}
+
+.two{
+	top: -45px;
+	left: 0px;
+}
+
+.three{
+	top: 225px;
+    left: 30px;
+}
+
+.wrapper3 {
+	margin: 0 auto;
+	width: 55%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	text-align: center;
+}
+
+.reserve{
+	margin: 0;
+	margin-top: 75px;
+	color: #3d2514;
+}
+
+.b-y-t{
+	margin: 0;
+	margin-bottom: 80px ;
+}
+
+.t-left {
+	width: 48%;
+	/*border: 1px solid indigo;*/
+	float: left;
+}
+
+.t-right {
+	width: 48%;
+	/*border: 1px solid indigo;*/
+	float: right;
+}
+
+input{
+	margin-bottom: 25px;
+	width: 95%;
+	height: 65px;
+
+}
+
+.find-table {
+	margin: 0;
+	width: 95%;
+    height: 70px;
+    cursor: pointer;
+}
+
+
+/*book end*/
+/*footer start*/
+
+footer{
+	margin-bottom: 65px;
+}
+
+.foot{
+	background-image:url(../images/footerbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 525px;
+}	
+
+.f-left {
+	margin-left: 40px;
+	width: 40%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.f-logo {
+	margin: 80px 0 45px;
+	width: 75%;
+	/*border: 1px solid yellow;*/
+}
+
+.f-logo img{
+	width: 100%;
+}
+
+.text {
+}
+
+.f-text{
+	color: white;
+}	
+
+.company{
+	margin-top: 150px;
+	color: white;
+}
+
+.f-right {
+	margin-top: 210px;
+	width: 30%;
+	/*border: 1px solid white;*/
+	float: right;
+}
+
+.f-right ul{
+
+}
+
+.f-right ul li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.f-right ul li img{
+	margin-right: 25px;
+}
+
+
+.f-right ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+.icons{
+	margin-top: 150px;
+}
+
+.icons ul{}
+
+.icons ul li{
+	float: left;
+}
+
+.icons ul li a{}
+
+/*footer end*/
+
+
